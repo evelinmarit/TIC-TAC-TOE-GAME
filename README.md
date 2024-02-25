@@ -6,20 +6,14 @@
  - `Framer Motion`
 
 ## :book: How to use
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [ReactJS](https://react.dev/) installed on your computer. From your command line:
+To pull and run this application, you'll need [Docker Desktop](https://docs.docker.com/get-docker/) installed on your computer. From your command line:
 
 ```
-# Clone this repository
-$ git clone https://github.com/ucfx/TIC-TAC-TOE-GAME.git
+# Pull this repository
+$ docker pull evelinmarit/tic-tac-toe-game
 
-# Go into the repository
-$ cd TIC-TAC-TOE-GAME
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+# Run the repository
+$ docker run -p 3000:3000 evelinmarit/tic-tac-toe-game
 ```
 ## :link: Demo
   - <a target="_blank" href="https://ucfx.github.io/TIC-TAC-TOE-GAME/"> Click Here </a> to see and play by yourself a demo of the game.
